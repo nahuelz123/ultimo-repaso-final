@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAEAEA;
+    margin: 0;
+}
+
+.bg-primary {
+    background-color: #00ABB3 !important;
+}
+
+.text-primary {
+    color: #00ABB3 !important;
+}
+
+.btn {
+    border: 0;
+}
+
+.btn-primary {
+    background-color: #00ABB3;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #00ABB3;
+}
+
+.title {
+    color: #00ABB3;
+}
+
+.login-page, .signup-page {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-page .main, .add-product-page .main {
+    padding: 40px;
+    min-height: calc(100vh - 101px - 56px);
+}
+
+.form-wrapper {
+    background-color: #FFF;
+    max-width: 90%;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-control {
+    border-color: rgba(0, 0, 0, 0.05);
+}
